@@ -14,8 +14,8 @@ Follow the instructions:
 
 * Clone the repository on your local machine
 ```
-    git clone https://github.com/Amos-Luna/Enhancer_OCR_NLP.git
-    cd Enhancer_OCR_NLP
+    git clone https://github.com/Amos-Luna/NLPDevelop.git
+    cd NLPDevelop
 ```
 
 * Create your custom virtual environment -> example: `nlp_venv`
