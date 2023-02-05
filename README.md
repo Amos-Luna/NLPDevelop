@@ -29,3 +29,6 @@ Follow the instructions:
     pip install -r requirements.txt
     code .
 ```
+
+## Image with anomalies in text
+![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44BVUQ5CD6P5J54MS7EY7AENTA)
