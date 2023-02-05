@@ -1,4 +1,4 @@
-# Enhance OCR lecture
+# NLPDevelop
 
 This project involves getting the best candidate word to replace the anomaly and corrupted word extracted with OCR using Deep Learning methods.
 
