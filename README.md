@@ -30,23 +30,26 @@ Follow the instructions:
     code .
 ```
 
-## Image with anomalies in text
-   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44BVUQ5CD6P5J54MS7EY7AENTA)
+# Image with anomalies in text
 
-* Text extracted after image processing and apply pytesseract-ocr techniques
+* Image with defects and distortion in text visualization
+
+   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44AGWO6NEYP5NCFE6ZIY7AEU6Q)
+
+* Text extracted after image processing and apply pytesseract-ocr techniques:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
     the fact that we are doing it for handwritten
     text. So our sample set is very infinite. Also
     different samples have different
-    **charac@@ristics**. The handwriting samples are
+    charac@@ristics. The handwriting samples are
     collected from different persons, hence it is
-    very **unlf~ly** that they will follow a similar
+    very unlf~ly that they will follow a similar
     pattern.
 ```
 
-* Incongruent text masked with the string `[MASK]`
+* Incongruent text masked with the string `[MASK]`:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -59,7 +62,7 @@ Follow the instructions:
     pattern.
 ```
 
-* After applying BERT-transformers to find the best candidate word, we obtain:
+* After applying BERT-transformers to find the best candidate word, we obtain the correct sentence:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
