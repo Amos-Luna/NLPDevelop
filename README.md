@@ -34,7 +34,7 @@ Follow the instructions:
 
 * Load image with defects and distortions (gross black draws):
 
-   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44BK72W7SUCYJPJIPMEY7AE5QQ)
+   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44ATJ66REYQ5R4WMPO2Y7AFDBQ)
 
 * Apply image processing and pytesseract-ocr techniques:
 ```
