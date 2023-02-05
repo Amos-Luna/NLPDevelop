@@ -34,7 +34,7 @@ Follow the instructions:
 
 * Load image with defects and distortions (gross black draws):
 
-   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44ATJ66REYQ5R4WMPO2Y7AFDBQ)
+   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png)
 
 * Apply image processing and pytesseract-ocr techniques:
 ```
@@ -51,7 +51,7 @@ Follow the instructions:
   Evidently, we get incorrect words:
   [**charac@@ristics** , **unlf~ly**]
 
-* Applying text-mining, text processing and BERT-transformers we get best candidate word. Then the correct sentence looks:
+* Applying text-mining, text processing and BERT-transformers we get best candidate word to replace them. Then the correct sentence looks like this:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
