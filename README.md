@@ -1,6 +1,7 @@
 # Enhance OCR lecture
 
-This project involves getting the best candidate word to replace the anomaly and incongruent word extracted with OCR
+This project involves getting the best candidate word to replace the anomaly and incongruent word extracted with OCR.
+To get the best candidate word we'll use Bidirectional Encoder Representations from Transformers - BERT
 
 ## Requirements
    ```
@@ -16,12 +17,12 @@ Follow the instructions:
     cd NLP_AdvancedProyect
 ```
 
-* Creat you custom py venv -> example: nlp_venv
+* Creat your custom virtual environment -> example: **nlp_venv**
 ```
     py -m venv nlp_venv
 ```
 
-* Follow the installation
+* Follow the installation to install dependencies
 ```
     source nlp_venv/Scripts/activate
     pip install -r requirements.txt
