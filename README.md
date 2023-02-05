@@ -30,13 +30,13 @@ Follow the instructions:
     code .
 ```
 
-# Image with anomalies in text
+# Process OCR - NLP
 
-* Image with defects and distortion in text visualization
+* Load image with defects and distortions (gross black draws):
 
    ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44BK72W7SUCYJPJIPMEY7AE5QQ)
 
-* Extracted text after image processing and applying pytesseract-ocr techniques:
+* Apply image processing and pytesseract-ocr techniques:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -48,9 +48,10 @@ Follow the instructions:
     very unlf~ly that they will follow a similar
     pattern.
 ```
-  Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
+  Evidently, we get incorrect words:
+  [**charac@@ristics** , **unlf~ly**]
 
-* Mask incorrect words with the string `[MASK]`:
+* Mask incorrect words with the string -> `[MASK]`:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -75,4 +76,5 @@ Follow the instructions:
     very unlikely that they will follow a similar
     pattern.
 ```
-  Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
+  Evidently, it has the correct word involved in the context of the sentence:
+  [**characteristics** , **unlikely**]
