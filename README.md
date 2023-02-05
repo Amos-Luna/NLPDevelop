@@ -34,7 +34,7 @@ Follow the instructions:
 
 * Image with defects and distortion in text visualization
 
-   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44AGWO6NEYP5NCFE6ZIY7AEU6Q)
+   ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44BK72W7SUCYJPJIPMEY7AE5QQ)
 
 * Extracted text after image processing and applying pytesseract-ocr techniques:
 ```
@@ -48,7 +48,7 @@ Follow the instructions:
     very unlf~ly that they will follow a similar
     pattern.
 ```
-   ---- Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
+      Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
 
 * Mask incorrect words with the string `[MASK]`:
 ```
@@ -75,4 +75,4 @@ Follow the instructions:
     very unlikely that they will follow a similar
     pattern.
 ```
-   ---- Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
+      Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
