@@ -48,7 +48,7 @@ Follow the instructions:
     very unlf~ly that they will follow a similar
     pattern.
 ```
-   - Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
+   ---- Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
 
 * Mask incorrect words with the string `[MASK]`:
 ```
@@ -75,4 +75,4 @@ Follow the instructions:
     very unlikely that they will follow a similar
     pattern.
 ```
-   - Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
+   ---- Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
