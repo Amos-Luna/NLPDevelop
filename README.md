@@ -36,7 +36,7 @@ Follow the instructions:
 
    ![local image](https://raw.githubusercontent.com/Amos-Luna/Enhancer_OCR_NLP/main/test_image.png?token=GHSAT0AAAAAAB6CI44AGWO6NEYP5NCFE6ZIY7AEU6Q)
 
-* Text extracted after image processing and apply pytesseract-ocr techniques:
+* Extracted text after image processing and applying pytesseract-ocr techniques:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -48,8 +48,9 @@ Follow the instructions:
     very unlf~ly that they will follow a similar
     pattern.
 ```
+   - Evidently, we get incorrect words: [**charac@@ristics** , **unlf~ly**]
 
-* Incongruent text masked with the string `[MASK]`:
+* Mask incorrect words with the string `[MASK]`:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -62,7 +63,7 @@ Follow the instructions:
     pattern.
 ```
 
-* After applying BERT-transformers to find the best candidate word, we obtain the correct sentence:
+* Applying BERT-transformers to find the best candidate word, we obtain the correct sentence:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
@@ -74,3 +75,4 @@ Follow the instructions:
     very unlikely that they will follow a similar
     pattern.
 ```
+   - Evidently, it has the correct word involved in context of the sentence: [**characteristics** , **unlikely**]
