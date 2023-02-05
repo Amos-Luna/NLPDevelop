@@ -12,18 +12,18 @@ Follow the instructions:
 
 * Clone the repository on your local machine
 ```
-    -> git clone https://github.com/Amos-Luna/NLP_AdvancedProyect.git
-    -> cd NLP_AdvancedProyect
+    git clone https://github.com/Amos-Luna/NLP_AdvancedProyect.git
+    cd NLP_AdvancedProyect
 ```
 
 * Creat you custom py venv -> example: nlp_venv
 ```
-    -> py -m venv nlp_venv
+    py -m venv nlp_venv
 ```
 
 * Follow the installation
 ```
-    -> source nlp_venv/Scripts/activate
-    -> pip install -r requirements.txt
-    -> code .
+    source nlp_venv/Scripts/activate
+    pip install -r requirements.txt
+    code .
 ```
