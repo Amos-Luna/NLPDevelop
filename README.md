@@ -51,20 +51,7 @@ Follow the instructions:
   Evidently, we get incorrect words:
   [**charac@@ristics** , **unlf~ly**]
 
-* Mask incorrect words with the string -> `[MASK]`:
-```
-    Now we are creating an OCR for handwritten
-    Bengali text. The main problem arises due to
-    the fact that we are doing it for handwritten
-    text. So our sample set is very infinite. Also
-    different samples have different
-    [MASK]. The handwriting samples are
-    collected from different persons, hence it is
-    very [MASK] that they will follow a similar
-    pattern.
-```
-
-* Applying BERT-transformers to find the best candidate word, we obtain the correct sentence:
+* Applying text-mining, text processing and BERT-transformers we get best candidate word. Then the correct sentence looks:
 ```
     Now we are creating an OCR for handwritten
     Bengali text. The main problem arises due to
