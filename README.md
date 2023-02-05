@@ -1,6 +1,6 @@
 # Enhance OCR lecture
 
-This project involves getting the best candidate word to replace the anomaly and incongruent word extracted with OCR.
+This project involves getting the best candidate word to replace the anomaly and incongruent word extracted with OCR using Deep Learning methods.
 
 We'll use pre-trained model `Bidirectional Encoder Representations from Transformers - BERT` to get the best word candidate that replace the incorrect word.
 
