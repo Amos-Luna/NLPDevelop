@@ -2,7 +2,7 @@
 
 This project involves getting the best candidate word to replace the anomaly and incongruent word extracted with OCR.
 
-To get the best candidate word we'll use `Bidirectional Encoder Representations from Transformers - BERT` pre-trained model
+We'll use pre-trained model `Bidirectional Encoder Representations from Transformers - BERT` to get the best word candidate.
 
 ## Requirements
    ```
