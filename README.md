@@ -20,11 +20,11 @@ Follow the instructions:
 * Creat your custom virtual environment -> example: **nlp_venv**
 ```
     py -m venv nlp_venv
+    source nlp_venv/Scripts/activate
 ```
 
-* Follow the installation to install dependencies
+* Install dependencies and open VSCode
 ```
-    source nlp_venv/Scripts/activate
     pip install -r requirements.txt
     code .
 ```
